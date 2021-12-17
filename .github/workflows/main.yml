@@ -33,11 +33,13 @@ jobs:
       - name: where are we
         run: |
           pwd
+          ls -l
       
       # Runs a single command using the runners shell
       - name: dependencies
         run: |
           pwd
+          ls -l
           bash scripts/setupy.sh
 
       # Runs a set of commands using the runners shell

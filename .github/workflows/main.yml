@@ -31,7 +31,8 @@ jobs:
           python-version: 3.6
       
       - name: where are we?
-        run: pwd
+        run: |
+          pwd
       
       # Runs a single command using the runners shell
       - name: dependencies

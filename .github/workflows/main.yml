@@ -30,13 +30,14 @@ jobs:
         with:
           python-version: 3.6
       
-      - name: where are we?
+      - name: where are we
         run: |
           pwd
       
       # Runs a single command using the runners shell
       - name: dependencies
         run: |
+          pwd
           bash scripts/setupy.sh
 
       # Runs a set of commands using the runners shell
